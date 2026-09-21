@@ -10,6 +10,8 @@ Tampilan desktop:
 
 Tampilan mobile:
 <img width="380" height="701" alt="image" src="https://github.com/user-attachments/assets/8607f454-0dfd-4145-a728-2683dd5dba92" />
+
+
 UPDATE
 Pada penugasan kali ini, saya menambahkan website dengan javascript untuk mempercantik dan menambah fungsi edit, delete, dan toggle dark mode. Saya Juga mengubah sedikit bahasa pada web jadi Bahasa Inggris
 Tampilan bright mode Desktop:
