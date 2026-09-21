@@ -35,11 +35,35 @@ section {
     border: 1px solid #ccc;
 }
 
+.dark-mode {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.dark-mode section, 
+.dark-mode aside {
+    background-color: #333;
+    border-color: #555;
+    color: white;
+}
+
+.dark-mode li {
+    background-color: #444;
+    border-color: #555;
+    color: white;
+}
+
 aside {
     flex: 1;
     background-color: white;
     padding: 15px;
     border: 1px solid #ccc;
+}
+
+ul {
+    list-style-type: none;
+    width: 90%;
+    margin: 0 auto;
 }
 
 li {
@@ -62,6 +86,11 @@ button {
     color: white;
     padding: 10px;
     border: none;
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1);
 }
 
 footer {

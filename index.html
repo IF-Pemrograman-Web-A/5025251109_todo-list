@@ -8,36 +8,47 @@
 </head>
 <body>
     <header>
-        <h1>ToDo List</h1>
+    <h1>ToDo List</h1>
     </header>
     <main>
         <section>
             <ul>
-                <li>13/09/2026 09.00 Basket</li>
-                <li>14/09/2026 09.00 Futsal</li>
-            </ul>
+    <li>
+        <input type="checkbox">
+        <span>13/09/2026 | Latihan Basket | 09.00</span>
+        <button>Edit</button>
+        <button>Delete</button>
+    </li>
+    <li>
+        <input type="checkbox">
+        <span>14/09/2026 | Mengerjakan Tugas HTML | 09.00</span>
+        <button>Edit</button>
+        <button>Delete</button>
+    </li>
+</ul>
         </section>
         <aside>
-             <h2>Tambah Tugas</h2>
+             <h2>Add Task</h2>
             <form>
                 <p> 
-                    Tanggal
+                    Date
                 </p>
                 <input type="date">
                 <p> 
-                    Nama
+                    Task Name
                 </p>
                 <input type="text">
                 <p> 
-                    Jam
+                    Time
                 </p>
-                <input type="text">
+                <input type="time">
                 <button type="submit">Simpan</button>
             </form>
+            <button id="btnTema">Theme Change</button>
         </aside>
     </main>
     <footer>
-        <p>Copyright</p>
+        <p>Copyright Marveilleux</p>
     </footer>
     <script src="script.js"></script>
 </body>
