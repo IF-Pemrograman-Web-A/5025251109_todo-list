@@ -8,41 +8,32 @@
 </head>
 <body>
     <header>
-    <h1>ToDo List</h1>
+        <h1>ToDo List</h1>
     </header>
     <main>
         <section>
-            <ul>
-    <li>
-        <input type="checkbox">
-        <span>13/09/2026 | Latihan Basket | 09.00</span>
-        <button>Edit</button>
-        <button>Delete</button>
-    </li>
-    <li>
-        <input type="checkbox">
-        <span>14/09/2026 | Mengerjakan Tugas HTML | 09.00</span>
-        <button>Edit</button>
-        <button>Delete</button>
-    </li>
-</ul>
+            <ul></ul>
         </section>
         <aside>
-             <h2>Add Task</h2>
+            <h2>Add Task</h2>
             <form>
-                <p> 
-                    Date
-                </p>
-                <input type="date">
-                <p> 
-                    Task Name
-                </p>
-                <input type="text">
-                <p> 
-                    Time
-                </p>
-                <input type="time">
-                <button type="submit">Simpan</button>
+                <p>Date</p>
+                <input type="date" required>
+                <p>Task Name</p>
+                <input type="text" required>
+                <p>Time</p>
+                <input type="time" required>
+                
+                <p>Notification Time</p>
+                <input type="time" required>
+
+                <p>Take Photo</p>
+                <video id="kamera" width="100%" autoplay></video>
+                <button type="button" id="btnSnap" style="margin-bottom: 10px;">Capture</button>
+                <canvas id="kanvas" style="display: none;"></canvas>
+                <img id="hasilFoto" style="display: none; width: 100%; margin-bottom: 10px;">
+
+                <button type="submit">Save</button>
             </form>
             <button id="btnTema">Theme Change</button>
         </aside>
@@ -52,3 +43,4 @@
     </footer>
     <script src="script.js"></script>
 </body>
+</html>
