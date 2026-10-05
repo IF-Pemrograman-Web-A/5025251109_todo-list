@@ -28,6 +28,19 @@ Tampilan dark mode Mobile:
 <img width="394" height="656" alt="image" src="https://github.com/user-attachments/assets/5739c4b7-8f68-4816-a54e-b74ddf899d7d" />
 
 
+UPDATE E03:
+
+<img width="387" height="628" alt="image" src="https://github.com/user-attachments/assets/055d13eb-4140-4306-9583-60daa625dfe1" />
+
+Adalah akses kamera untuk capture catatan
+
+<img width="614" height="372" alt="image" src="https://github.com/user-attachments/assets/c1a65ea5-fc47-4738-9a8c-d69b01fbe04d" />
+
+Disini terlihat bahwa event handler untuk notifikasi dapat bekerja dengan baik
+
+<img width="1466" height="385" alt="image" src="https://github.com/user-attachments/assets/45214edb-9ef6-4980-8d5e-a3b56d48002c" />
+
+Dapat dilihat bahwa list menyertakan gambar dan jam notif muncul
 
 
 
