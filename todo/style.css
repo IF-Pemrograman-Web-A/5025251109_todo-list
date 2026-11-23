@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.menu-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #222;
+    padding: 12px 20px;
+}
+
+.menu-bar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+    border: 1px solid #555;
+    border-radius: 4px;
+}
+
+.menu-bar a.active {
+    background-color: white;
+    color: black;
+}
+
+#btnInstall {
+    background-color: #2e7d32;
+    color: white;
+    padding: 8px 18px;
+    border: 1px solid #4caf50;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+section {
+    flex: 5;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.dark-mode {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.dark-mode section,
+.dark-mode aside {
+    background-color: #333;
+    border-color: #555;
+    color: white;
+}
+
+.dark-mode li {
+    background-color: #444;
+    border-color: #555;
+    color: white;
+}
+
+aside {
+    flex: 1;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+ul {
+    list-style-type: none;
+    width: 90%;
+    margin: 0 auto;
+}
+
+li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+li.completed span {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+form.inline-form {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+button,
+.btn-link {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    text-decoration: none;
+    font-size: 13px;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover,
+.btn-link:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+@media (max-width: 600px) {
+    main {
+        flex-direction: column;
+    }
+}
